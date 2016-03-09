@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FUEL_LIB_PATH="./fuel-library/deployment/puppet/osnailyfacter"
-SKIPPED_MODULES=(master spec ceilometer glance heat horizon ironic keystone openstack-cinder openstack-controller openstack-network roles sahara swift)
+SKIPPED_MODULES=(master spec)
 
 ################################################################################
 
